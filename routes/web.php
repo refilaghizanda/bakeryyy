@@ -13,16 +13,16 @@ Route::get('products', [\App\Http\Controllers\HomeController::class, 'getProduct
 Route::get('product-detail/{product:slug}', [\App\Http\Controllers\ProductController::class, 'getProductDetail']);
 Route::post('carts', [\App\Http\Controllers\CartController::class, 'store']);
 Route::get('carts', [\App\Http\Controllers\CartController::class, 'showCart']);
+
 // ongkir
 Route::get('api/provinces', [\App\Http\Controllers\OngkirController::class, 'getProvinces']);
 Route::get('api/cities', [\App\Http\Controllers\OngkirController::class, 'cities']);
 Route::get('api/shipping-cost', [\App\Http\Controllers\OngkirController::class, 'shippingCost']);
 Route::post('api/set-shipping', [\App\Http\Controllers\OngkirController::class, 'setShipping']);
 Route::post('api/checkout', [\App\Http\Controllers\OrderController::class, 'checkout']);
+
 // get user login
 Route::get('api/users', [\App\Http\Controllers\UserController::class, 'index']);
-// ==========
-
 
 Route::group(['middleware' => 'auth'], function() {
     
