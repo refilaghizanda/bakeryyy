@@ -34,7 +34,7 @@ class Order extends Model
 
 
     /**
-	 * Generate order code
+	 * Generate kode order
 	 *
 	 * @return string
 	 */
@@ -64,7 +64,7 @@ class Order extends Model
     }
     
     /**
-	 * Check if the generated order code is exists
+	 * Memeriksa apakah kode pesanan yang dihasilkan ada
 	 *
 	 * @param string $orderCode order code
 	 *
