@@ -9,7 +9,7 @@ use App\Http\Requests\Admin\TagRequest;
 class TagController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Menampilkan daftar resource.
      *
      * @return \Illuminate\Http\Response
      */
@@ -31,7 +31,7 @@ class TagController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Menampilkan formulir untuk membuat resource baru.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -47,7 +47,7 @@ class TagController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Menampilkan formulir untuk edit resource yang spesifik.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -58,7 +58,7 @@ class TagController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Memperbarui resource yang spesifik di storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -75,7 +75,7 @@ class TagController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Hapus resource yang spesifik dari storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
