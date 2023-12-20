@@ -21,7 +21,7 @@ class Category extends Model implements HasMedia
 
     
     /**
-     * Return the sluggable configuration array for this model.
+     * Return array konfigurasi slug untuk model ini.
      *
      * @return array
      */
