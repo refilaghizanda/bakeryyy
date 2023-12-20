@@ -13,7 +13,7 @@ class Tag extends Model
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
      /**
-     * Return the sluggable configuration array for this model.
+     * Hubungan antara suatu model.
      *
      * @return array
      */
