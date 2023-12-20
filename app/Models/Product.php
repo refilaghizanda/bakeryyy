@@ -8,6 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
+// mendefinisikan kelas product
 class Product extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia, Sluggable;
@@ -17,7 +18,7 @@ class Product extends Model implements HasMedia
     protected $appends = ['gallery'];
 
     /**
-     * Return the sluggable configuration array for this model.
+     * Return suatu array konfigurasi untuk menghasilkan slug pada model.
      *
      * @return array
      */
