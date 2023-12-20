@@ -167,3 +167,41 @@ Berikut adalah flowchart admin ketika mengakses website dashboard admin:
 ![image](https://github.com/refilaghizanda/taste-of-home-bakery/assets/90167525/6b00f665-d75b-439a-8871-216020c7b369)
 
 Entity Relationship Diagram (ERD) adalah diagram yang digunakan untuk menggambarkan hubungan antara entitas dalam sebuah database. Pada website taste of home bakery terdapat beberapa entitas yaitu admin, produk, pelanggan, pembayaran, dan pengiriman.
+
+
+## How to run
+
+Clone the project
+
+```bash
+  git clone https://github.com/refilaghizanda/taste-of-home-bakery.git project-name
+```
+
+Go to the project directory
+
+```bash
+  cd project-name
+```
+
+-   Copy .env.example file to .env and edit database credentials there
+
+```bash
+    composer install
+```
+
+```bash
+    php artisan key:generate
+```
+
+```bash
+    php artisan artisan migrate:fresh --seed
+```
+
+```bash
+    php artisan storage:link
+```
+
+**Login**
+
+-   email = admin@example.com
+-   password = 123
