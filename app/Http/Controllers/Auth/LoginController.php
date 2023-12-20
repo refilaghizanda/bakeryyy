@@ -13,23 +13,20 @@ class LoginController extends Controller
     | Login Controller
     |--------------------------------------------------------------------------
     |
-    | This controller handles authenticating users for the application and
-    | redirecting them to your home screen. The controller uses a trait
-    | to conveniently provide its functionality to your applications.
-    |
+    | Controller menangani otentikasi pengguna untuk aplikasi dan mengarahkan mereka ke layar home.
     */
 
     use AuthenticatesUsers;
 
     /**
-     * Where to redirect users after login.
+     * Mengarahkan pengguna setelah login.
      *
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
-     * Create a new controller instance.
+     * Membuat controller instance baru.
      *
      * @return void
      */
