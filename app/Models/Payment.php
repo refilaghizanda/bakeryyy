@@ -36,7 +36,7 @@ class Payment extends Model
 		$integer = intval($integer);
 		$result = '';
 		
-		// Create a lookup array that contains all of the Roman numerals.
+		// Buat array pencarian yang berisi semua angka romawi.
 		$lookup = ['M' => 1000, 'CM' => 900, 'D' => 500, 'CD' => 400, 'C' => 100, 'XC' => 90, 'L' => 50, 'XL' => 40, 'X' => 10, 'IX' => 9, 'V' => 5, 'IV' => 4, 'I' => 1];
  
 		foreach ($lookup as $roman => $value) {
