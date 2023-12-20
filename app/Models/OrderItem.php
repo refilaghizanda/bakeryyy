@@ -12,7 +12,7 @@ class OrderItem extends Model
     protected $guarded = [];
 
      /**
-	 * Define relationship with the Product
+	 * Menentukan hubungan dengan produk
 	 *
 	 * @return void
 	 */
