@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
-// mendefinisikan kelas product
+// mendefinisikan kelas product yang merupakan model eloquent
 class Product extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia, Sluggable;
