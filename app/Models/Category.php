@@ -8,6 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
+// mendefinisikan kelas Category
 class Category extends Model implements HasMedia
 {
     use HasFactory,Sluggable,InteractsWithMedia;
