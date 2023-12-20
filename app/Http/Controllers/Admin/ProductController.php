@@ -13,7 +13,7 @@ class ProductController extends Controller
 {
     use ImageUploadingTrait;
     /**
-     * Display a listing of the resource.
+     * Menampilkan daftar resource.
      *
      * @return \Illuminate\Http\Response
      */
@@ -25,7 +25,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Menampilkan formulir untuk membuat resource baru.
      *
      * @return \Illuminate\Http\Response
      */
@@ -38,7 +38,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Menyimpan resource baru yang dibuat di storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -59,7 +59,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Menampilkan formulir resource yang spesifik.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -70,7 +70,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Menampilkan formulir untuk edit resource yang spesifik.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -84,7 +84,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Memperbarui resource yang spesifik di storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -118,7 +118,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Hapus resource yang spesifik dari storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
