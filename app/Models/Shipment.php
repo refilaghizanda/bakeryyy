@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+// mendefinisikan kelas Shipment
 class Shipment extends Model
 {
     use HasFactory;
@@ -15,7 +16,7 @@ class Shipment extends Model
 	public const SHIPPED = 'shipped';
 
     /**
-	 * Relationship to the order model
+	 * Hubungan antara suatu model dengan model "order" 
 	 *
 	 * @return void
 	 */
