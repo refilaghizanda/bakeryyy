@@ -8,19 +8,20 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+// mendefinisikan kelas User
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
-     * The attributes that are mass assignable.
+     * Atribut-atribut dalam suatu model yang dapat diisi secara massal.
      *
      * @var array<int, string>
      */
     protected $guarded = [];
 
     /**
-     * The attributes that should be hidden for serialization.
+     * Atribut-atribut dalam suatu model yang seharusnya tidak disertakan dalam output serialisasi.
      *
      * @var array<int, string>
      */
@@ -30,7 +31,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be cast.
+     * Atribut-atribut yang harus ditampilkan.
      *
      * @var array<string, string>
      */
