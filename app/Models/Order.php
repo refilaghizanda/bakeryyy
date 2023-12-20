@@ -6,7 +6,7 @@ use App\Helpers\General;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-// mendefinisika kelas Order
+// mendefinisikan kelas Order
 class Order extends Model
 {
     use HasFactory;
