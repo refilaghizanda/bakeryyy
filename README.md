@@ -1,4 +1,4 @@
-**Kelompok 7 Framework**
+## Kelompok 7 Framework
 
 Refila Dyah Ghizanda Wardoyo (21091397041) 
 
@@ -8,7 +8,7 @@ Putri Dwinatryska Aulia RF   (21091397075)
 
 ** **
 
-**Taste of Home Bakery**
+## Taste of Home Bakery
 
 ![logo](https://github.com/refilaghizanda/taste-of-home-bakery/assets/90167525/05a1b642-dfaa-4680-bfd7-eb872adf3440)
 
@@ -73,7 +73,7 @@ Berikut adalah konvensi dokumen yang digunakan pada website Taste of Home Bakery
 
 ** **
 
-**User Interface**
+## User Interface
 
 **1. Homepage**
 
@@ -104,7 +104,7 @@ Halaman checkout akan muncul apabila customer membeli suatu produk. Halaman ini 
 
 ** **
 
-**Analisis Model**
+## Analisis Model
 
 **1. Use Case Diagram**
 
