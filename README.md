@@ -1,12 +1,3 @@
-## Kelompok 7 Framework
-
-Refila Dyah Ghizanda Wardoyo (21091397041) 
-
-Nila Gayatri                 (21091397066)
-
-Putri Dwinatryska Aulia RF   (21091397075)
-
-** **
 
 ## Taste of Home Bakery
 
